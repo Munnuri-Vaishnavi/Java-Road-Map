@@ -85,6 +85,8 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 43 | Multi-Dimensional (Matrix) | [Multi-D Arrays](https://www.geeksforgeeks.org/multidimensional-arrays-in-java/) | [Video](https://youtu.be/FK4qY4sH63o) | Write a program to find the transpose of a matrix |
 | 44 | Jagged Arrays | [Jagged Arrays](https://www.javatpoint.com/jagged-array-in-java) | [Video](https://youtu.be/fbrXEZ6DsS4) | Create a jagged array for Pascal’s triangle |
 | 45 | Disadvantages of Arrays | [Limitations of Arrays](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-arrays/) | [Video](https://youtu.be/Yh-7f1vF9EM) | Write notes on why arrays are static |
+|   | **Silver Badge 🥉** | - | - | - |
+
 | 46 | Hierarchy of Collections | [Collections Overview](https://www.javatpoint.com/collections-in-java) | [Video](https://youtu.be/AXZfUj8b82I) | Draw the Java Collections hierarchy |
 | 47 | ArrayList | [ArrayList Class](https://www.geeksforgeeks.org/arraylist-in-java/) | [Video](https://youtu.be/KIIqjxeJ8BY) | Create an `ArrayList<String>` and perform CRUD ops |
 | 48 | ArrayList Practice | [Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) | [Video](https://youtu.be/75A3ZPIY6D8) | Add 10 ints, remove duplicates, find min/max |
@@ -110,8 +112,7 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 68 | BufferedWriter | [BufferedWriter](https://www.javatpoint.com/java-bufferedwriter-class) | [Video](https://youtu.be/l2cdgLeMweY) | Write lines efficiently |
 | 69 | CharArrayReader | [CharArrayReader](https://www.javatpoint.com/java-chararrayreader-class) | [Video](https://youtu.be/NXijAAZ9Wlw) | Demonstrate `CharArrayReader` |
 | 70 | CharArrayWriter | [CharArrayWriter](https://www.geeksforgeeks.org/chararraywriter-class-in-java/) | [Video](https://youtu.be/8v2O9fN5qq0) | Use `CharArrayWriter` to store chars |
-| Day | Topic                               | Article Link                                                                                                | Video Link                            | Assignment                                                         |
-| --- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------ |
+|   | **Gold Badge 🥉** | - | - | - |
 | 71  | Java Exceptions                     | [Java Exceptions](https://www.geeksforgeeks.org/exceptions-in-java/)                                        | [Video](https://youtu.be/8wLz4XU5x2o) | Write a program that throws & handles `ArithmeticException`.       |
 | 72  | Try–Catch Block                     | [Try–Catch](https://www.javatpoint.com/try-catch-block)                                                     | [Video](https://youtu.be/vu3t3J-0Q6Y) | Divide by zero inside `try` and handle it.                         |
 | 73  | Multiple Catch Blocks               | [Multiple Catch](https://www.geeksforgeeks.org/multiple-catch-block-in-java/)                               | [Video](https://youtu.be/8dDNfV5e7PQ) | Handle `NumberFormatException` & `ArrayIndexOutOfBoundsException`. |
@@ -133,16 +134,8 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 89  | Java Regex                          | [Regex](https://www.geeksforgeeks.org/regular-expressions-in-java/)                                         | [Video](https://youtu.be/t6doxTir_nY) | Validate email & phone number.                                     |
 | 90  | Regex – Pattern & Matcher           | [Pattern/Matcher](https://www.javatpoint.com/java-regex)                                                    | [Video](https://youtu.be/I1Y3VJ3o0VY) | Extract all numbers from a string.                                 |
 | 91  | Regex Practice                      | [More Regex](https://www.w3schools.com/java/java_regex.asp)                                                 | [Video](https://youtu.be/CbClUYrGFeo) | Validate password strength.                                        |
-| 92  | Project Planning                    | –                                                                                                           | –                                     | Break Smart Ride Sharing app into modules.                         |
-| 93  | OOP Setup for Project               | –                                                                                                           | –                                     | Create `Person`, `Passenger`, `Driver` classes.                    |
-| 94  | Collections & I/O in Project        | –                                                                                                           | –                                     | Implement HashMap & ride history storage.                          |
-| 95  | **Smart Ride Sharing – Part 1**     | [Spec](#)                                                                                                   | –                                     | Setup menus, data models.                                          |
-| 96  | Smart Ride Sharing – Part 2         | [Spec](#)                                                                                                   | –                                     | Booking system & fare logic.                                       |
-| 97  | Smart Ride Sharing – Part 3         | [Spec](#)                                                                                                   | –                                     | File I/O: save & load ride history.                                |
-| 98  | Smart Ride Sharing – Part 4         | [Spec](#)                                                                                                   | –                                     | Regex validation & exception handling.                             |
-| 99  | Smart Ride Sharing – Part 5         | [Spec](#)                                                                                                   | –                                     | Multithreading: ride progress & auto-save.                         |
-| 100 | Smart Ride Sharing – Final Review   | [Spec](#)                                                                                                   | –                                     | Test all features & print decorative receipt.                      |
-
+| 92  | Project Planning                    | –                                                                                                           | –                                     | Break Smart Ride Sharing app into modules.                         |                         |
+| 95  | **Smart Ride Sharing – Part 1**     | 
 
 
 
