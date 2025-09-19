@@ -10,7 +10,7 @@ This is an initiation designed for freshers and anyone who wishes to learn <b>Ja
  
 -   **Name:** Munnuri Vaishnavi 
 - **E-Mail:** vanivaishu49@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/Munnuri Vaishnavi
+- **LinkedIn:** https://www.linkedin.com/in/MunnuriVaishnavi
 
  ## 🚀 Kick-off your Java Journey
 
