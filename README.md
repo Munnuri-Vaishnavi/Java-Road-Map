@@ -10,7 +10,7 @@ This is an initiation designed for freshers and anyone who wishes to learn <b>Ja
  
 -   **Name:** Munnuri Vaishnavi 
 - **E-Mail:** vanivaishu49@gmail.com  
-- **LinkedIn:** [Sai Krishna Dusa](https://www.linkedin.com/in/saikrishnadusa)
+- **LinkedIn:** https://www.linkedin.com/in/Munnuri Vaishnavi
 
  ## 🚀 Kick-off your Java Journey
 
@@ -38,6 +38,7 @@ Before diving into the challenge, ensure you have Java installed on your system.
 ## 📚 Topics & Resources
 
 To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with video tutorials, articles, and exercises.
+
 | Day | Topic | Article Link | Video Link | Assignment |
 | --- | ----- | ------------ | ---------- | ---------- |
 | 1   | GitHub | [Follow this article thoroughly](https://www.geeksforgeeks.org/github/) | [GitHub Basics](https://www.youtube.com/watch?v=RGOj5yH7evk) | - |
@@ -76,7 +77,41 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 33 | Cloning in Java | [Cloning](https://www.javatpoint.com/object-cloning) | [Cloning Video](https://www.youtube.com/watch?v=IQ1wlv5X-5I) | Implement Cloneable and override clone(). |
 | 34 | Encapsulation | [Encapsulation](https://www.javatpoint.com/encapsulation) | [Encapsulation Video](https://www.youtube.com/watch?v=3en7eXe2lrI) | Create a class with private data and getters/setters. |
 | 35 | Java Package | [Packages in Java](https://www.javatpoint.com/package) | [Packages Video](https://www.youtube.com/watch?v=KxhB3e2LJww) | Organize code into packages. |
-| 36-37 | Mini Project: Student Management System | — | — | See details below. |
+
+36-37	"Build a simple console-based Student Management System where students and their academic records can be created, stored, and displayed. This project must demonstrate all core Java topics learned so far.
+1. Basic Java (covered earlier)
+Input/Output (Scanner) → Take user input.
+Variables & Data Types → Store student details.
+Operators (Arithmetic, Relational, Logical, Assignment) → Perform calculations like average, grade checks.
+Conditional Statements (if-else, switch) → Grade calculation, menu-driven program.
+Loops (for, while, do-while) → Enter multiple student details.
+Patterns → Print borders like *********.
+Recursive Method → Factorial of marks, or a recursive method to calculate GCD between two students’ scores (demo purpose).
+2. OOP Concepts
+Create a class Student with attributes (id, name, marks).
+Create objects for each student.
+Default constructor → Assign default values.
+Parameterized constructor → Assign input values.
+Normal methods → calculateGrade(), displayDetails().
+Static method → Keep track of total number of students.
+Keep marks and name as private, provide getters and setters.
+Create a parent class Person with common attributes (name, age).
+Student extends Person.
+Add Teacher class extending Person.
+Overloading → Create addMarks(int, int) and addMarks(int, int, int).
+Overriding → displayDetails() in Student and Teacher.
+Create an abstract class User with abstract method showRole().
+Student and Teacher must implement it.
+Or use an interface Manageable with method manage().
+Use this to refer to current object.
+Use super to call parent class constructor.
+Use final for a constant value (like MAX_MARKS).
+Put classes into packages like com.sms.model, com.sms.service, com.sms.main."			
+
+| Day | Topic | Article Link | Video Link | Assignment |
+|-----|-------|--------------|------------|------------|
+| 38  | Strings and Methods | [Strings](https://www.javatpoint.com/java-string) | [Video](https://www.youtube.com/watch?v=HKr3tyRvP2s) | Reverse strings, check substring |
+| 39  | StringBuilder Class | [StringBuilder](https://www.javatpoint.com/StringBuilder-class) | [Video](https://www.youtube.com/watch?v=zCvoJ_ZFMEY) | Use append, reverse, insert |
 | 38 | Strings and Methods | [Strings](https://www.javatpoint.com/java-string) | [Strings Video](https://www.youtube.com/watch?v=HkR3tyRvP2s) | Reverse strings, check substring, startsWith, endsWith. |
 | 39 | StringBuilder Class | [StringBuilder](https://www.javatpoint.com/StringBuilder-class) | [StringBuilder Video](https://www.youtube.com/watch?v=ZC0vJ_ZFMEY) | Use append, reverse, insert, etc. |
 | 40 | StringBuffer Class | [StringBuffer](https://www.javatpoint.com/StringBuffer-class) | [StringBuffer Video](https://www.youtube.com/watch?v=76A1QCoNZ7o) | Work with StringBuffer; compare with StringBuilder. 
@@ -112,8 +147,6 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 69 | CharArrayReader | [CharArrayReader](https://www.javatpoint.com/java-chararrayreader-class) | [Video](https://youtu.be/NXijAAZ9Wlw) | Demonstrate `CharArrayReader` |
 | 70 | CharArrayWriter | [CharArrayWriter](https://www.geeksforgeeks.org/chararraywriter-class-in-java/) | [Video](https://youtu.be/8v2O9fN5qq0) | Use `CharArrayWriter` to store chars |
 |   | **Gold Badge 🥉** | - | - | - |
-| Day | Topic                                          | Article Link                                                                                                | Video Link                            | Assignment                                                        |
-| --- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------- |
 | 71  | Java Exceptions                                | [Java Exceptions](https://www.geeksforgeeks.org/exceptions-in-java/)                                        | [Video](https://youtu.be/8wLz4XU5x2o) | Write a program that throws & handles `ArithmeticException`       |
 | 72  | Try–Catch Block                                | [Try-Catch](https://www.javatpoint.com/try-catch-block)                                                     | [Video](https://youtu.be/vu3t3J-0Q6Y) | Divide by zero inside `try` and handle it                         |
 | 73  | Multiple Catch Blocks                          | [Multiple Catch](https://www.geeksforgeeks.org/multiple-catch-block-in-java/)                               | [Video](https://youtu.be/8dDNfV5e7PQ) | Handle `NumberFormatException` & `ArrayIndexOutOfBoundsException` |
@@ -135,6 +168,113 @@ To keep your learning organized, we’ve prepared a **Topic-wise Roadmap** with 
 | 89  | Java Regex                                     | [Regex](https://www.geeksforgeeks.org/regular-expressions-in-java/)                                         | [Video](https://youtu.be/t6doxTir_nY) | Validate email & phone number                                     |
 | 90  | Regex – Pattern & Matcher                      | [Pattern/Matcher](https://www.javatpoint.com/java-regex)                                                    | [Video](https://youtu.be/I1Y3VJ3o0VY) | Extract all numbers from a string                                 |
 | 91  | Regex Practice                                 | [More Regex](https://www.w3schools.com/java/java_regex.asp)                                                 | [Video](https://youtu.be/CbClUYrGFeo) | Validate password strength                                        |
-| 92  | Project Planning                               | –                                                                                                           | –                                     | Break Smart Ride Sharing app into modules                         |
-rative receipt                      |
+| 92  | Project Planning                               | –                                                                                                           | –                                     | Break Smart Ride Sharing app into modules                         
+
+
+
+
+<h2><b>FINAL PROJECT	</b></h2>	
+<h2><b>95-100</b></h2>
+
+<h2><b>Smart Ride Sharing Console App</b></h2>
+
+**Problem Statement**
+
+Design and implement a **console-based Smart Ride Sharing application** in Java. The system should allow **Passengers** to book rides, and **Drivers** to provide rides, simulating a basic Ola/Uber experience. The program must demonstrate all the Java concepts learned in the bootcamp, including OOP, Collections, Exception Handling, File I/O, Threads, and Regex.
+
+**Requirements**
+
+1. Core OOP Concepts
+
+* Create an **abstract class `Person`** with attributes: `name`, `age`, `email`, and an abstract method `showRole()`.
+* Create **Passenger** and **Driver** classes extending `Person`.
+* Use **encapsulation** for sensitive data (like phone number).
+* Use **this, super, and final** where appropriate.
+
+2. Booking System
+
+* Passengers can:
+  * View available drivers.
+  * Book a ride (enter pickup & drop location).
+* Drivers can:
+  * Accept or reject rides.
+  * Update their availability status.
+
+3. Collections & Data Structures
+
+* Use a HashMap<Driver, String>to store driver availability with current location.
+* Use ArrayList to store ride history for passengers.
+* Use HashSet to store unique cities where the service operates.
+
+4. File I/O
+
+* Save ride history and user data into files (`FileWriter`, `BufferedWriter`).
+* Load data from files at startup (`FileReader`, `BufferedReader`).
+
+5. Operators, Loops & Conditionals
+
+* Use for/while loops to handle multiple bookings.
+* Use if-else / switch to manage menu-driven options:
+
+  * `1 → Book Ride`
+  * `2 → View Ride History`
+  * `3 → Driver Portal`
+  * `4 → Exit`
+* Use arithmetic and relational operators to calculate ride fare (based on distance).
+
+6. Regex Validation
+
+* Validate email format for passengers/drivers.
+* Validate **phone number** (10 digits).
+
+7. Exception Handling
+
+* Create custom exceptions like `RideNotFoundException` (if no drivers available).
+* Handle invalid inputs gracefully using try-catch-finally.
+8. Multithreading
+
+* Use one thread to **simulate ride progress** (e.g., “Ride started → On the way → Ride completed”).
+* Use another thread for **periodic auto-save** of ride data into file every 30 seconds.
+
+ 9. Patterns
+
+* Print ride receipts with decorative patterns:
+ 
+  ******** RIDE RECEIPT ********
+  
+  Passenger: Prathyusha
+  
+  Driver: Ravi
+  
+  Fare: Rs. 250
+  
+  
+  ****************************** 
+
+10. Extra Concepts
+
+* Recursive method to calculate estimated time using a simplified distance reduction logic.
+* Use packages (`com.rideshare.model`, `com.rideshare.service`, `com.rideshare.main`).
+
+**Expected Output**
+
+The program should:
+
+1. Allow passengers to book rides.
+2. Assign nearest available driver.
+3. Show live ride status updates (via threads).
+4. Store ride history in files for persistence.
+5. Validate all inputs (emails, phone numbers).
+6. Handle exceptions properly.
+7. Print detailed ride receipts with patterns.
+
+
+**Evaluation Criteria**
+
+* **Completeness**: All features implemented.
+* **Correctness**: No crashes, proper exception handling.
+* **Code Quality**: Proper use of OOP, packages, naming conventions.
+* **Integration**: Covers all topics (loops, OOP, collections, I/O, threads, regex, exceptions).
+* **Creativity**: Bonus for additional features (fare discounts, loyalty points, cancellation system).
+		                                                                |
 
